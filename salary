@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    int totalsalary;
+    int tax;
+    int netsalary;
+    cout<<"enter your total salary"<<endl;
+    cin>> totalsalary;
+    cout<<"enter your tax"<<endl;
+    cin>> tax;
+    netsalary=totalsalary-tax;
+    cout<<"thank you, your salary = "<< netsalary<<endl;
+
+   return 0;
+}
